@@ -8,7 +8,7 @@ Operators enter their fleet details (or paste their Turo listing text for AI aut
 1. Calculates exact monthly/annual Turo fee bleed per vehicle
 2. Projects 12-month revenue: Turo vs going direct
 3. Benchmarks their rates against their city's market averages
-4. Uses Gemini AI to write a personalized insight report with per-vehicle analysis
+4. Uses Groq AI to write a personalized insight report with per-vehicle analysis
 5. Exports the full report as a downloadable PDF
 
 ## Why It Matters for 1Now
@@ -18,7 +18,7 @@ This is a **sales weapon**. 1Now's pitch is "go direct, make more money." This r
 - React 18 + Vite
 - Recharts (area chart, bar chart, radar chart)
 - jsPDF + html2canvas (PDF export)
-- Gemini 2.0 Flash API (free at aistudio.google.com)
+- Groq API (free at aistudio.google.com)
 
 ## Setup
 1. Get a free Gemini API key at `aistudio.google.com`
